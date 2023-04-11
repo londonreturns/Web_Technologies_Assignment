@@ -5,21 +5,22 @@
 .container{
     width:  100%;
     background-color: #0C3B2E;
-    height: 962px;
+    height: 100vh;
 }
 .container .left{
     width: 35%;
     float: left;
-    margin: 85px;
-    padding-top: 75px;
+    margin: 3vw;
+    padding-top: 8vh;
 }
 
 .container .right{
     float: right;
 }
 img{
-    width: 853px;
-    height: 962px;
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
 }
 h1{
     color: white;
@@ -48,4 +49,16 @@ button{
     padding: 9px;
     padding-left: 35px;
     padding-right: 35px;
+}
+@media (max-width: 1139px){
+    .container .right, .left{
+        width: 100%;
+    }
+
+    img{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
 }
