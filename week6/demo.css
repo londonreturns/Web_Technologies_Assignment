@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     width:  100%;
@@ -46,6 +47,7 @@ button{
     font-size: 19;
     border-radius: 500px;
     font-weight: 700;
+    margin: 15px;
     padding: 9px;
     padding-left: 35px;
     padding-right: 35px;
