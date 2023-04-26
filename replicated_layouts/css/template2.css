@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0C3B2E;
+}
+
+.container1{
+    margin-top: 80px;
+    display: flex;
+    height: 40vh;
+    justify-content: space-evenly;
+}
+
+.left{
+    font-size: 80px;
+    width: 40vw;
+    color: white;
+    font-weight: 900;
+}
+
+.right{
+    width: 40vw;
+    font-size: 30px;
+    color: white;
+}
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
